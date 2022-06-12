@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+.content {
+    font-family: 'Acme', sans-serif;
+    color: rgb(5, 29, 246);
+}
+
+#socials {
+    font-family: 'Acme', sans-serif;
+    color: rgb(225, 13, 13);
+}
