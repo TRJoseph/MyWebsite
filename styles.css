@@ -1,11 +1,45 @@
 @import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
 
+html {
+    background-color:  rgb(138, 216, 190);
+}
+
+.page {
+    padding-top: 50px;
+}
+
 .content {
     font-family: 'Acme', sans-serif;
-    color: rgb(5, 29, 246);
+    text-shadow: 3px 3px 0px #114b5f;
+    margin-left: 5vw;
+}
+
+#title {
+    font-size: 4rem;
+    color: rgb(240, 224, 136);
+    height: 70px;
+    margin: 0;
+}
+
+#subtitle {
+    font-size: 2rem;
+    color: rgb(240, 224, 136);
+    height: 50px;
+    margin: 0;
+    padding-top: 5px;
 }
 
 #socials {
     font-family: 'Acme', sans-serif;
     color: rgb(225, 13, 13);
+    list-style-type: none;
+    overflow: hidden;
+    display: block;
+    margin-right: 1.5rem;
+    margin: 0;
+}
+#socials li {
+    width: 100px;
+    display: inline-block;
+    border-right: 1px;
 }
