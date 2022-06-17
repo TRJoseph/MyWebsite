@@ -1,45 +1,86 @@
 @import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
 
 html {
-    background-color:  rgb(138, 216, 190);
+    background-color:  rgb(33, 159, 148);
 }
 
 .page {
-    padding-top: 50px;
+    padding-top: 0px;
 }
 
 .content {
     font-family: 'Acme', sans-serif;
     text-shadow: 3px 3px 0px #114b5f;
     margin-left: 5vw;
+    margin-top: 14vw;
 }
 
 #title {
     font-size: 4rem;
-    color: rgb(240, 224, 136);
+    color: rgb(193, 222, 174);
     height: 70px;
     margin: 0;
 }
 
 #subtitle {
     font-size: 2rem;
-    color: rgb(240, 224, 136);
+    color: rgb(193, 222, 174);
     height: 50px;
     margin: 0;
     padding-top: 5px;
 }
 
 #socials {
-    font-family: 'Acme', sans-serif;
-    color: rgb(225, 13, 13);
+    color: rgb(242, 245, 200);
     list-style-type: none;
     overflow: hidden;
     display: block;
-    margin-right: 1.5rem;
+    margin-right: 0;
     margin: 0;
+    margin-left: 3vw;
 }
-#socials li {
-    width: 100px;
+#socials li{
+    width: 70px;
     display: inline-block;
-    border-right: 1px;
+}
+#socials li a:visited {
+    text-decoration: none;
+    color: rgb(242, 245, 200);
+}
+
+#socials li a {
+    text-decoration: none;
+    color: rgb(242, 245, 200);
+}
+
+
+#side-bar {
+    height: 100vh;
+    width: 70px;
+    background-color: rgb(193, 222, 174);
+    margin-left: 0;
+    position: absolute;
+    right:0;
+    top:0
+}
+
+.sidebarGroup {
+    top: 50%;
+    position: absolute;
+}
+
+.sidebarGroup button{
+    display: block;
+    width: 70px;
+    height: 50px;
+    font-size: 25px;
+    border: none;
+    background-color: transparent;
+    color: rgb(33, 159, 148)
+}
+
+
+
+.sidebarGroup button:hover {
+    transform: scale(1.2);
 }
