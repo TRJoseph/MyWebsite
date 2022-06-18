@@ -98,3 +98,23 @@ section {
     height: 100vh;
     display: inline-block;
 }
+
+.light-box {
+    width: 50%;
+    padding: 20px;
+    border-radius: 20px;
+    -webkit-box-shadow: 7px 7px 0px rgb(8, 39, 50);
+            box-shadow: 7px 7px 0px rgb(8, 39, 50);
+    background-color: #f3e9d2ff;
+    color: #114b5fff;
+    margin-left: 100px;
+  }
+
+.sectionTitle {
+    font-size: 2rem;
+    color: rgb(193, 222, 174);
+    height: 50px;
+    margin: 0;
+    padding-top: 5px;
+    margin-left: 20px;
+}
