@@ -6,13 +6,15 @@ html {
 
 .page {
     padding-top: 0px;
+    margin: 0;
+    padding: 0;
 }
 
 .content {
     font-family: 'Acme', sans-serif;
     text-shadow: 3px 3px 0px #114b5f;
     margin-left: 5vw;
-    margin-top: 14vw;
+    margin-top: -12vw;
 }
 
 #title {
@@ -105,7 +107,7 @@ html {
 .side-bar-arrow-right {
     width: 0; 
     height: 0; 
-    bottom: 25.75px;
+    bottom: 26px;
     left: 88px;
     border-top: 15px solid transparent;
     border-bottom: 15px solid transparent;
@@ -139,8 +141,21 @@ section {
     margin-left: 20px;
 }
 
+#sectionParagraph {
+    width: 60%;
+    text-align: center;
+    margin-left: 16%;
+    margin-top: 5%;
+    display: flex;
+    font-size: 20px;
+    color: rgb(193, 222, 174);
+    -webkit-text-stroke-width: 0.2px;
+    -webkit-text-stroke-color: #fff;
+    line-height: 1.6;
+}
+
 @media (min-width: 576px) {
-    #main-page {
+    #mainSect {
       padding-top: 0px;
       display: -webkit-box;
       display: -ms-flexbox;
