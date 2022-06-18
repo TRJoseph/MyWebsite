@@ -15,34 +15,62 @@
     <script src="https://kit.fontawesome.com/6bef532dd6.js" crossorigin="anonymous"></script>
   </head>
   <body>
-    <div id="main-page" class="page">
-      <div class="content">
-        <h1 id="title">Thomas Joseph</h1>
-        <h2 id="subtitle">Welcome to my Website!</h2>
+    <section id="mainSect">
+      <div id="main-page" class="page">
+        <div class="content">
+          <h1 id="title">Thomas Joseph</h1>
+          <h2 id="subtitle">Welcome to my Website!</h2>
+        </div>
+          <ul id="socials">
+              <li>
+                  <a href="https://github.com/TRJoseph">
+                  <i class="fa-brands fa-github"></i> github
+                  </a>
+              </li>
+              <li>
+                  <a href="https://www.linkedin.com/in/thomas-joseph-97262a200/">
+                      <i class="fa-brands fa-linkedin"></i> linkedin
+                  </a>
+              </li>
+              <li id="contact">
+                <a href="mailto:trjoseph2002@gmail.com">
+                  <i class="fa-solid fa-paper-plane"></i> contact me
+                </a>
+            </li>
+            <li id="blog">
+              <a href="">
+                <i class="fa-brands fa-blogger-b"></i> blog
+              </a>
+          </li>
+            
+          </ul>
       </div>
-        <ul id="socials">
-            <li>
-                <a href="https://github.com/TRJoseph">
-                <i class="fa-brands fa-github"></i>github
-                </a>
-            </li>
-            <li>
-                <a href="https://www.linkedin.com/in/thomas-joseph-97262a200/">
-                    <i class="fa-brands fa-linkedin"></i>linkedin
-                </a>
-            </li>
-        </ul>
-    </div>
-    <div id="side-bar" class="page">
-      <div class="sidebarGroup">
-        <button id="home">
-          <i class="fa-solid fa-house-chimney"></i>
-          <div></div>
-        </button>
-        <button id="about+me">
-          <i class="fa-solid fa-address-card"></i>
-        </button>
-    </div>
-
+      <div id="side-bar" class="page">
+        <div class="sidebarGroup">
+          
+          <button id="home" onClick="document.getElementById('mainSect').scrollIntoView({behavior: 'smooth'});">
+            <i class="fa-solid fa-house-chimney"></i>
+            <div></div>
+          </button>
+          <button id="about-me" onClick="document.getElementById('aboutMeSect').scrollIntoView({behavior: 'smooth'});">
+            <i class="fa-solid fa-address-card"></i>
+          </button>
+          <button id="projects" onClick="document.getElementById('projectsSect').scrollIntoView({behavior: 'smooth'});">
+            <i class="fa-solid fa-diagram-project"></i>
+          </button>
+          <button id="work-experience" onClick="document.getElementById('workExperienceSect').scrollIntoView({behavior: 'smooth'});">
+            <i class="fa-solid fa-briefcase"></i>
+          </button>
+      </div>
+  </section>
+    <section id="aboutMeSect">
+      <div><h1>About Me</h1></div>
+    </section>
+    <section id="projectsSect">
+      <div><h1>some of my Projects...</h1></div>
+    </section>
+    <section id="workExperienceSect">
+      <div><h1>my work experience</h1></div>
+    </section>
 </body>
 </html>

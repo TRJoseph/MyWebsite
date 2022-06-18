@@ -37,12 +37,20 @@ html {
     display: block;
     margin-right: 0;
     margin: 0;
-    margin-left: 3vw;
+    margin-left: 30px;
+    margin-top: 5px;
 }
 #socials li{
-    width: 70px;
     display: inline-block;
+    font-size: 20px;
+    margin-right: 1vw;
 }
+
+#socials #contact {
+    display: inline-block;
+    font-size: 20px;
+}
+
 #socials li a:visited {
     text-decoration: none;
     color: rgb(242, 245, 200);
@@ -59,13 +67,13 @@ html {
     width: 70px;
     background-color: rgb(193, 222, 174);
     margin-left: 0;
-    position: absolute;
+    position: fixed;
     right:0;
     top:0
 }
 
 .sidebarGroup {
-    top: 50%;
+    top: 35%;
     position: absolute;
 }
 
@@ -83,4 +91,10 @@ html {
 
 .sidebarGroup button:hover {
     transform: scale(1.2);
+}
+
+section {
+    width: 100%;
+    height: 100vh;
+    display: inline-block;
 }
