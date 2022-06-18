@@ -87,11 +87,31 @@ html {
     color: rgb(33, 159, 148)
 }
 
-
-
-.sidebarGroup button:hover {
-    transform: scale(1.2);
+.fa-solid {
+    min-height: 50px;
 }
+
+.side-bar-navigation {
+    height: 35px;
+    width: 90px;
+    background-color: rgb(193, 222, 174);
+    margin-left: 0;
+    position: relative;
+    left: -116px;
+    bottom: 52px;
+    display: block;
+}
+
+.side-bar-arrow-right {
+    width: 0; 
+    height: 0; 
+    bottom: 25.75px;
+    left: 88px;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    position: relative;
+    border-left: 15px solid rgb(193, 222, 174);
+  }
 
 section {
     width: 100%;
