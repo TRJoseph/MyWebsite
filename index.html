@@ -45,32 +45,49 @@
             
           </ul>
       </div>
+
       <div id="side-bar" class="page">
         <div class="sidebarGroup">
-          
           <button id="home" onClick="document.getElementById('mainSect').scrollIntoView({behavior: 'smooth'});">
             <i class="fa-solid fa-house-chimney"></i>
-            <div></div>
+            <div class="side-bar-navigation" id="homeTab" style="display:none">
+              <text>Home</text>
+              <div class="side-bar-arrow-right"></div>
+            </div>
           </button>
           <button id="about-me" onClick="document.getElementById('aboutMeSect').scrollIntoView({behavior: 'smooth'});">
             <i class="fa-solid fa-address-card"></i>
+            <div class="side-bar-navigation" id="aboutTab" style="display:none">
+              <text>About</text>
+              <div class="side-bar-arrow-right"></div>
+            </div>
           </button>
           <button id="projects" onClick="document.getElementById('projectsSect').scrollIntoView({behavior: 'smooth'});">
             <i class="fa-solid fa-diagram-project"></i>
+            <div class="side-bar-navigation" id="projectTab" style="display:none">
+              <text>Proj</text>
+              <div class="side-bar-arrow-right"></div>
+            </div>
           </button>
           <button id="work-experience" onClick="document.getElementById('workExperienceSect').scrollIntoView({behavior: 'smooth'});">
             <i class="fa-solid fa-briefcase"></i>
+            <div class="side-bar-navigation" id="workTab" style="display:none">
+              <text>workk</text>
+              <div class="side-bar-arrow-right"></div>
+            </div>
           </button>
       </div>
   </section>
     <section id="aboutMeSect">
-      <div><h1>About Me</h1></div>
+      <div><h1 class="sectionTitle">a little bit about myself...</h1></div>
     </section>
     <section id="projectsSect">
-      <div><h1>some of my Projects...</h1></div>
+      <div><h1 class="sectionTitle">some of my Projects...</h1>
+        <li class="light-box"></li></div>
     </section>
     <section id="workExperienceSect">
-      <div><h1>my work experience</h1></div>
+      <div><h1 class="sectionTitle">my work experience</h1></div>
     </section>
 </body>
+<script type="text/javascript" src="index.js"></script>
 </html>
