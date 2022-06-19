@@ -4,17 +4,14 @@ html {
     background-color:  rgb(33, 159, 148);
 }
 
-.page {
-    padding-top: 0px;
-    margin: 0;
-    padding: 0;
+#main-page {
+    padding-bottom: 200px;
 }
 
 .content {
     font-family: 'Acme', sans-serif;
     text-shadow: 3px 3px 0px #114b5f;
     margin-left: 5vw;
-    margin-top: -12vw;
 }
 
 #title {
@@ -63,6 +60,13 @@ html {
     color: rgb(242, 245, 200);
 }
 
+#side-bar-grip {
+    color: rgb(193, 222, 174);
+    left: 98%;
+    position:fixed;
+    font-size:50px;
+    top: 50%;
+}
 
 #side-bar {
     height: 100vh;
@@ -71,7 +75,13 @@ html {
     margin-left: 0;
     position: fixed;
     right:0;
-    top:0
+    top:0;
+    opacity: 0;
+    transition: opacity 1s
+}
+
+#side-bar:hover {
+    opacity: 100%;
 }
 
 .sidebarGroup {
@@ -86,7 +96,8 @@ html {
     font-size: 25px;
     border: none;
     background-color: transparent;
-    color: rgb(33, 159, 148)
+    color: rgb(33, 159, 148);
+    cursor: pointer;
 }
 
 .fa-solid {
@@ -169,3 +180,23 @@ section {
               justify-content: center;
     }
   }
+
+@keyframes downArrowAnimation {
+    0% {
+        transform: translateY(-10%);
+        opacity: 100%;
+    }
+    100% {
+        transform: translateY(40%);
+        opacity: 5%;
+    }
+}
+
+#downArrow {
+    color: white;
+    left: 50%;
+    position: absolute;
+    bottom: 0;
+    font-size: 30px;
+    animation: downArrowAnimation 5s ease-in-out 0s infinite normal none;
+}
