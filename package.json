@@ -15,7 +15,7 @@
   "bugs": {
     "url": "https://github.com/TRJoseph/MyWebsite/issues"
   },
-  "homepage": "https://github.com/TRJoseph/MyWebsite#readme",
+  "homepage": "https://github.com/TRJoseph/MyWebsite",
   "dependencies": {
     "particles.js": "^2.0.0"
   }
