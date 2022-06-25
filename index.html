@@ -15,7 +15,9 @@
     <script src="https://kit.fontawesome.com/6bef532dd6.js" crossorigin="anonymous"></script>
   </head>
   <body>
-    <section id="mainSect">
+    <div style="position: fixed; z-index: -1; width: 100%; height: 100%;"id="particles-js"></div>
+    <script src="node_modules/particles.js/particles.js"></script>
+    <section class="pageSection" id="mainSect">
       <div id="main-page" class="page">
         <div class="content">
           <h1 id="title">Thomas Joseph</h1>
@@ -44,6 +46,7 @@
           </li>
           </ul>
       </div>
+
       <div><i id="downArrow" class="fa-solid fa-arrow-down"></i></div>
       <i id="side-bar-grip" class="fa-solid fa-grip-lines-vertical"></i>
       <div id="side-bar" class="page">
@@ -78,16 +81,16 @@
           </button>
       </div>
   </section>
-    <section id="aboutMeSect">
-      <div><h2 class="sectionTitle">a little bit about myself...</h2>
+    <section class="pageSection" id="aboutMeSect">
+      <div class="page"><h2 class="sectionTitle">a little bit about myself...</h2>
       <p id="sectionParagraph">Hi, my name is Thomas. I am a rising Junior Computer Engineering Major currently attending <a href="https://www.clemson.edu">Clemson University</a>. Go Tigers!
         My idea behind this website was to create a way for me to display to the world what projects I have completed in the
         past and any projects that I am currently working on. Alongside this I decided this realm would be a fantastic host to
         my career updates as well as to describe any past jobs I have held and the skills that they helped me to develop.
       </p></div>
     </section>
-    <section id="projectsSect">
-      <div><h1 class="sectionTitle">some of my projects...</h1>
+    <section class="pageSection" id="projectsSect">
+      <div class="page"><h1 class="sectionTitle">some of my projects...</h1>
         <li class="light-box">
           <div>
             <h1>My Website<a href="https://github.com/TRJoseph/MyWebsite" class="sourceLink" style="float: right;">Source</a></h1>
@@ -102,9 +105,11 @@
         </li>
       </div>
     </section>
-    <section id="workExperienceSect">
-      <div><h1 class="sectionTitle">my work experience...</h1></div>
+    <section class="pageSection" id="workExperienceSect">
+      <div class="page"><h1 class="sectionTitle">my work experience...</h1></div>
     </section>
+    
 </body>
 <script type="text/javascript" src="Scripts/index.js"></script>
+<script type="text/javascript" src="Scripts/particleHandler.js"></script>
 </html>
