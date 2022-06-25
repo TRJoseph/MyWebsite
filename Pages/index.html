@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Thomas Joseph</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="../Styles/styles.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
@@ -51,48 +51,60 @@
           <button id="home" onClick="document.getElementById('mainSect').scrollIntoView({behavior: 'smooth'});">
             <i class="fa-solid fa-house-chimney"></i>
             <div class="side-bar-navigation" id="homeTab" style="opacity: 0;">
-              <text>Home</text>
+              <text style="font-size: 22px; top: 10px;">Home</text>
               <div class="side-bar-arrow-right"></div>
             </div>
           </button>
           <button id="about-me" onClick="document.getElementById('aboutMeSect').scrollIntoView({behavior: 'smooth'});">
             <i class="fa-solid fa-address-card"></i>
             <div class="side-bar-navigation" id="aboutTab" style="opacity: 0;">
-              <text>About</text>
+              <text style="font-size: 22px; top: 10px;">About</text>
               <div class="side-bar-arrow-right"></div>
             </div>
           </button>
           <button id="projects" onClick="document.getElementById('projectsSect').scrollIntoView({behavior: 'smooth'});">
             <i class="fa-solid fa-diagram-project"></i>
             <div class="side-bar-navigation" id="projectTab" style="opacity: 0;">
-              <text>Proj</text>
+              <text style="font-size: 22px; top: 10px;">Projects</text>
               <div class="side-bar-arrow-right"></div>
             </div>
           </button>
           <button id="work-experience" onClick="document.getElementById('workExperienceSect').scrollIntoView({behavior: 'smooth'});">
             <i class="fa-solid fa-briefcase"></i>
             <div class="side-bar-navigation" id="workTab" style="opacity: 0;">
-              <text>Work</text>
-              <div class="side-bar-arrow-right"></div>
+              <text style="font-size: 15px; display: flex;">Work Experience</text>
+              <div style ="bottom: 31px;"class="side-bar-arrow-right"></div>
             </div>
           </button>
       </div>
   </section>
     <section id="aboutMeSect">
       <div><h2 class="sectionTitle">a little bit about myself...</h2>
-      <p id="sectionParagraph">Hi, my name is Thomas. I am a rising Junior Computer Engineering Major currently attending Clemson University. Go Tigers!
+      <p id="sectionParagraph">Hi, my name is Thomas. I am a rising Junior Computer Engineering Major currently attending <a href="https://www.clemson.edu">Clemson University</a>. Go Tigers!
         My idea behind this website was to create a way for me to display to the world what projects I have completed in the
         past and any projects that I am currently working on. Alongside this I decided this realm would be a fantastic host to
         my career updates as well as to describe any past jobs I have held and the skills that they helped me to develop.
       </p></div>
     </section>
     <section id="projectsSect">
-      <div><h1 class="sectionTitle">some of my Projects...</h1>
-        <li class="light-box"></li></div>
+      <div><h1 class="sectionTitle">some of my projects...</h1>
+        <li class="light-box">
+          <div>
+            <h1>My Website</h1>
+            <p>I began working on this website shortly after getting my first official job offering as a Full-Stack Software Development
+              Intern at a tech company in Greenville, SC. More about this can be found in my work experience section down below.
+              I decided to put my skills that I have developed through University as well as outside of the classroom on my own time to 
+              create this website. A blog page will be coming soon where some of my experiences will be documented and shared more thoroughly,
+              so make sure to keep an eye out for that.<br><br>I built my website with HTML/CSS/JS and am currently hosting the website using
+              Github Pages. (Pages hosting is free every month due to my current status as a student! Hooray!)
+            </p>
+          </div>
+        </li>
+      </div>
     </section>
     <section id="workExperienceSect">
-      <div><h1 class="sectionTitle">my work experience</h1></div>
+      <div><h1 class="sectionTitle">my work experience...</h1></div>
     </section>
 </body>
-<script type="text/javascript" src="index.js"></script>
+<script type="text/javascript" src="../Scripts/index.js"></script>
 </html>
