@@ -1,0 +1,19 @@
+{
+  "name": "mywebsite",
+  "version": "1.0.0",
+  "description": "This repository is the host of my first website. It is my attempt at creating a clean, minimalistic way to show my peers what I have been up. I will also use this page to give information and updates on myself and my project endeavors.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TRJoseph/MyWebsite.git"
+  },
+  "author": "Thomas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TRJoseph/MyWebsite/issues"
+  },
+  "homepage": "https://github.com/TRJoseph/MyWebsite#readme"
+}
