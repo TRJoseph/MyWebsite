@@ -6,6 +6,7 @@ html {
 
 #main-page {
     padding-bottom: 200px;
+    display: flex;
 }
 
 .content {
@@ -38,7 +39,7 @@ html {
     display: flex;
     margin-right: 0;
     margin: 0;
-    margin-left: 30px;
+    margin-left: -36px;
     margin-top: 5px;
 }
 #socials li{
@@ -137,12 +138,15 @@ section {
 .light-box {
     width: 75%;
     padding: 20px;
+    padding-top: 5px;
+    padding-bottom: 10px;
     border-radius: 20px;
     -webkit-box-shadow: 7px 7px 0px rgb(8, 39, 50);
             box-shadow: 7px 7px 0px rgb(8, 39, 50);
     background-color: #f3e9d2ff;
     color: #114b5fff;
-    margin-left: 100px;
+    margin-left: 10%;
+    margin-bottom: 2%;
     list-style: none;
   }
 
@@ -162,8 +166,6 @@ section {
     margin-top: 5%;
     font-size: 20px;
     color: rgb(193, 222, 174);
-    -webkit-text-stroke-width: 0.2px;
-    -webkit-text-stroke-color: #fff;
     line-height: 1.6;
 }
 
