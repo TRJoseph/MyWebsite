@@ -224,3 +224,26 @@ section {
     font-size: 30px;
     animation: downArrowAnimation 5s ease-in-out 0s infinite normal none;
 }
+
+@media only screen and (max-width: 420px) {
+    #subtitle {
+      padding-top: 97px;
+    }
+
+    #downArrow {
+        left: 48%;
+    }
+
+    .sectionTitle {
+        padding-top: 60px;
+        padding-bottom: 20px;
+    }
+
+    .light-box {
+        margin-left: 7%;
+    }
+
+    #socials {
+        margin-top: 50px;
+    }
+  }
