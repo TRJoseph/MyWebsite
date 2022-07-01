@@ -244,6 +244,12 @@ section {
     }
 
     #socials {
-        margin-top: 50px;
+        margin-top: 75px;
+        display: block;
+    }
+
+    #socials li {
+        width: 200px;
+        height: 60px;
     }
   }
