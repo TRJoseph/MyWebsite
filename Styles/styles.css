@@ -147,7 +147,7 @@ section {
     background-color: #f3e9d2ff;
     color: #114b5fff;
     margin-left: 10%;
-    margin-bottom: 2%;
+    margin-bottom: 20px;
     list-style: none;
   }
 
@@ -226,7 +226,7 @@ section {
     animation: downArrowAnimation 5s ease-in-out 0s infinite normal none;
 }
 
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 430px) {
     #subtitle {
       padding-top: 97px;
     }
@@ -252,5 +252,19 @@ section {
     #socials li {
         width: 200px;
         height: 60px;
+    }
+
+    #workTitle {
+        padding-top: 47px;
+    }
+
+    #side-bar {
+        visibility: hidden;
+        display: none;
+    }
+
+    #side-bar-grip {
+        visibility: hidden;
+        display: none;
     }
   }
