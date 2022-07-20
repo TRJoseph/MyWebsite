@@ -1,0 +1,10 @@
+#backgroundSquare {
+    width: 450px;
+    height: 450px;
+    background-color: rgb(33, 159, 148);
+    border-radius: 20px;
+    transform: rotate(45deg);
+    position: absolute;
+    top: -75px;
+    right: -75px;
+}
