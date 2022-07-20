@@ -73,6 +73,7 @@ html {
 }
 
 #side-bar {
+    z-index: 99999;
     height: 100vh;
     width: 70px;
     background-color: rgb(193, 222, 174);
@@ -318,9 +319,9 @@ section {
     }
 
     #workParagraph {
-    width: 60%;
+    width: 80%;
     text-align: center;
-    margin-left: 20.5%;
+    margin: auto;
     }
 
     .workTiles {
